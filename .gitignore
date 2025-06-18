@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+myenv/
+lib/
+
+.env
+
+# ML Models (THESE ARE HUGE - DON'T COMMIT)
+*.pkl
+*.model
+*.bin
+*.pt
+*.pth
+enwiki_20180420_100d.pkl
+*.h5
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+*.json
+*.xlsx
+notes.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# Temp files
+*.tmp
+*.temp
+temp/
